@@ -1,4 +1,4 @@
-# Contains Duplicate
+# Contains Duplicate - Easy
 
 
 class Solution:

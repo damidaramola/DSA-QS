@@ -1,4 +1,4 @@
-# increment Decrement 
+# increment Decrement  - Easy
 
 #pseudo code 
 
