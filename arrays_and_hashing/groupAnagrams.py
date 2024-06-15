@@ -1,5 +1,6 @@
 #Default Dict
-#tuples are immuatble and can be used for keys in dictionaries
+#tuples are immutable and can be used for keys in dictionaries
+# usind - sorted() give
 
  # brute force - O(n^2) check words side by side for anagram match 
 # emty array/ append []
