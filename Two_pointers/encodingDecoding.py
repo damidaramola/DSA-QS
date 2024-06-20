@@ -44,3 +44,6 @@ test = Solution()
 run = test.decode(s)
        
 print(run)
+
+#Time complexity O(n) looping through the strings in the list 
+#Space complexity O(n)
