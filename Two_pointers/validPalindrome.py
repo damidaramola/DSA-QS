@@ -9,7 +9,7 @@ class Solution:
         # s.lower(), s.strip , s.isalphanum
         # two pointers, i at start, j at s-1
        
-       #actual solution - using while loop ,check if string is non-alpha numeric,then compare,increment decrement
+       #actual solution - using while loop ,check if string is non-alpha numeric,skip non-alphanumeric chars,then compare,increment decrement
 
        i = 0
        j = len(s) - 1 
