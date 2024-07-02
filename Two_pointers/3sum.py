@@ -1,3 +1,5 @@
+#2 pointers, duplicate checks for pointers 
+
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         #input = array
