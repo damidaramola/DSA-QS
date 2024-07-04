@@ -1,3 +1,5 @@
+#2 stacks 
+
 class MyQueue:
 
     def __init__(self):
