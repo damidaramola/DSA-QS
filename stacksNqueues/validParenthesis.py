@@ -1,3 +1,6 @@
+# stacks only store the opening brackets 
+# we check for the closing bracket in the dict
+# if they match we pop opening bracket else false 
 
 class Solution:
     def isValid(self, s: str) -> bool:        
