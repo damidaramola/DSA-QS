@@ -12,6 +12,22 @@ class LRUCache:
         # if the len of the queue is greater than the capacity 
         # popleft from the queue
         # delete that popped left key 
+        
+        # cleaner pseudocode 
+        
+        # initialize queue, capacity and hashmap
+        # get
+        # if the key is not in th hmap, we return -1
+        # if it is in the hmap , we remove that key from its position in the queue 
+        # append it to the front of the queue 
+        # return the value of that key from the hashmap
+
+        # put
+        #  if the key is in the hmap already, update the value of the key so that its the most recently used 
+        #  else, add the key, value pair to the cache 
+        # if no. of keys in queue > capacity delete LRU 
+        # then popleft from the queue and store it in a variable least_used which is a key
+        # use least_used to access the value and del that accessed value to also delete the key 
 
 
     def __init__(self, capacity: int):
