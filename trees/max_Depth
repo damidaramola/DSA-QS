@@ -1,0 +1,21 @@
+#max depth of a binary tree
+
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        # have a base case
+        # call that function on the left and right of binary tree
+        # return the ,max depth 
+        # if the value is not 0
+        if not root:
+            return 0
+        height_left = self.maxDepth(root.left)
+        height_right = self.maxDepth(root.right)
+
+        max_d = max(height_left,height_right) + 1
+        return max_d
+
+#  time complexity is O(n), where n is the number of nodes in the tree. 
+# the space complexity of the function is O(h), where h is the height of the tree.
+
+#Best Case (Balanced Tree): O(log n)
+#Worst Case (Unbalanced Tree): O(n)        
